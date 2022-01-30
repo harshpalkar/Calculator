@@ -1,1 +1,1 @@
-console.log("Welcome to calculator");
+let screen = getElementById("screen");
