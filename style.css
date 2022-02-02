@@ -8,9 +8,6 @@
   /* display: inline-block; */
   /* align-items: center; */
 }
-body.background {
-  background-image: url(/img/pexels-elijah-o\'donnell-3473569.jpg);
-}
 h1 {
   display: flex;
   justify-content: center;
