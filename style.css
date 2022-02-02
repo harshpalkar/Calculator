@@ -1,6 +1,6 @@
 * {
   margin: 2px;
-  padding: 0px;
+  padding: 2px;
 }
 .container {
   text-align: center;
@@ -49,6 +49,7 @@ button {
   /* color: #252525; */
   font-family: SF sans;
   margin: -2px;
+  text-shadow: 2px;
   border-color: black;
   height: 54px;
   width: 70px;

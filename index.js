@@ -11,7 +11,7 @@ for (item of buttons) {
             screenValue += buttonText;
             screen.value = screenValue;
         }
-        else if (buttonText == 'C') {
+        else if (buttonText == 'C') {     //amplifying what C does
             screenValue = "";
             screen.value = screenValue;
         }
