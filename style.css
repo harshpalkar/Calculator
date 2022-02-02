@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 * {
   margin: 2px;
   padding: 2px;
@@ -50,7 +51,7 @@ button {
   font-size: 20px;
   /* background-color: #ffffffe0; */
   /* color: #252525; */
-  font-family: SF sans;
+  font-family: Lato;
   margin: -2px;
   text-shadow: 2px;
   border-color: white;
