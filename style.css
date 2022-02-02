@@ -34,6 +34,9 @@ table {
 #equalsTo {
   background-color: azure;
 }
+#allClear {
+  background-color: coral;
+}
 .digits {
   background: rgb(88, 88, 88);
   color: whitesmoke;
@@ -50,7 +53,7 @@ button {
   font-family: SF sans;
   margin: -2px;
   text-shadow: 2px;
-  border-color: black;
+  border-color: white;
   height: 54px;
   width: 70px;
   border-radius: 10px;
