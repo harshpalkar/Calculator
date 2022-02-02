@@ -1,9 +1,15 @@
 * {
-  margin: 0px;
-  /* padding: 0px; */
+  margin: 2px;
+  padding: 0px;
 }
 .container {
   text-align: center;
+  color: whitesmoke;
+  /* display: inline-block; */
+  /* align-items: center; */
+}
+body.background {
+  background-image: url(/img/pexels-elijah-o\'donnell-3473569.jpg);
 }
 h1 {
   display: flex;
@@ -16,7 +22,7 @@ table {
   font-size: 34px;
   margin: auto;
 }
-#allClear {
+#clear {
   background-color: rgb(53, 53, 53);
   color: whitesmoke;
 }
@@ -28,20 +34,16 @@ table {
   background-color: rgb(53, 53, 53);
   color: whitesmoke;
 }
-#division {
-  background-color: rgb(248, 126, 78);
-  color: whitesmoke;
+#equalsTo {
+  background-color: azure;
 }
 .digits {
   background: rgb(88, 88, 88);
   color: whitesmoke;
 }
-.digits :hover {
-  background-color: whitesmoke;
-}
 .operators {
-  background-color: rgb(248, 126, 78);
-  color: whitesmoke;
+  background-color: azure;
+  color: black;
 }
 
 button {
@@ -50,17 +52,23 @@ button {
   /* color: #252525; */
   font-family: SF sans;
   margin: -2px;
+  border-color: black;
   height: 54px;
   width: 70px;
   border-radius: 10px;
-  border-color: black;
+}
+button :hover {
+  background: white;
 }
 input {
   font-size: 23px;
   font-family: SF bold;
+  /* display: flex; */
   text-align: right;
   background-color: #252525;
   border-radius: 16px;
   color: whitesmoke;
   height: 60px;
+  width: auto;
+  justify-content: center;
 }

@@ -1,56 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Calculator</title>
-        <link rel="stylesheet" href="style.css" />
-        <script src="/index.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
   </head>
-  <body>
-    <header>
-      <h1>CALCULATOR</h1>
-    </header>
-    <div class="Calculator">
-    <table>
-        <div class="container">
-          <input type="text" name="screen" id="screen"/>
-            <tr>
-              <td><button type="button" name="allClear" id="allClear">AC</button></td>
-              <td><button type="button" name="plusMinus" id="plusMinus">+/-</button></td>
-              <td><button type="button" name="module" id="module">%</button></td>
-              <td><button type="button" name="division" id="division">/</button></td>
-            </tr>
-            <tr>
-              <td><button type="button" class="digits">7</button></td>
-              <td><button type="button" class="digits">8</button></td>
-              <td><button type="button" class="digits">9</button></td>
-              <td><button type="button" class="operators">x</button></td>
-              <!-- <td><button>%</button></td> -->
-            </tr>
-            <tr>
-              <td><button type="button" class="digits">4</button></td>
-              <td><button type="button" class="digits">5</button></td>
-              <td><button type="button" class="digits">6</button></td>
-              <td><button type="button" class="operators">-</button></td>
-            </tr>
-            <tr>
-              <td><button type="button" class="digits">1</button></td>
-              <td><button type="button" class="digits">2</button></td>
-              <td><button type="button" class="digits">3</button></td>
 
-              <td><button type="button" class="operators">+</button></td>
-            </tr>
-            <tr>
-              <td><button type="button" class="digits">0</button></td>
-              <td><button type="button" class="digits">00</button></td>
-              <td><button type="button" class="digits">.</button></td>
-              <td><button type="button" class="operators">=</button></td>
-            </tr>
-          </div>
-        </div>
+  <body class="background">
+    <div class="container">
+      <h1>CALCULATOR</h1>
+      <br />
+      <br />
+      <br />
+
+      <div class="calculator">
+        <input type="text" name="screen" id="screen" />
+        <table>
+          <tr>
+            <td><button>(</button></td>
+            <td><button>)</button></td>
+            <td><button id="clear">C</button></td>
+            <td><button>AC</button></td>
+            <td><button>Back</button></td>
+          </tr>
+          <tr>
+            <td><button class="digits">7</button></td>
+            <td><button class="digits">8</button></td>
+            <td><button class="digits">9</button></td>
+            <td><button class="operators">X</button></td>
+            <td><button class="operators">%</button></td>
+          </tr>
+          <tr>
+            <td><button class="digits">4</button></td>
+            <td><button class="digits">5</button></td>
+            <td><button class="digits">6</button></td>
+            <td><button class="operators">-</button></td>
+          </tr>
+          <tr>
+            <td><button class="digits">1</button></td>
+            <td><button class="digits">2</button></td>
+            <td><button class="digits">3</button></td>
+            <td><button class="operators">+</button></td>
+          </tr>
+          <tr>
+            <td><button class="digits">0</button></td>
+            <td><button>.</button></td>
+            <td><button class="operators">/</button></td>
+            <td><button class="operators">=</button></td>
+          </tr>
+        </table>
       </div>
-    </table>
+    </div>
   </body>
+  <script src="index.js"></script>
 </html>
