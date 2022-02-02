@@ -6,7 +6,7 @@ for (item of buttons) {
         buttonText = e.target.innerText;    // buttonText now contains the inner text of each of the buttons when clicked
 
         console.log('Button text is ', buttonText);
-        if (buttonText == 'X') {
+        if (buttonText == 'X') {           //amplifying what multiplication symbol will do
             buttonText = '*';
             screenValue += buttonText;
             screen.value = screenValue;
