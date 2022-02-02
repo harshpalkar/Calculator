@@ -73,3 +73,6 @@ input {
   width: auto;
   justify-content: center;
 }
+.background {
+  font-family: Open sans;
+}
